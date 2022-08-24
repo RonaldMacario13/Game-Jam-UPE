@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+
+.gato {
+    background-color: red;
+}
+
+.preto {
+    background-color: green;
+}
+
+.logo {
+    width: 150px;
+    height: 112.5px;
+}
+
+.nav {
+    background-color: #273553;
+}
+
+body {
+    background-color: #273553;
+    font-family: "MADE TOMMY";
+}
+
+@font-face {
+    font-family: "MADE TOMMY";
+    src: url("Assets/Fonts/Fonte123.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
