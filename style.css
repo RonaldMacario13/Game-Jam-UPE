@@ -31,3 +31,25 @@ body {
     font-style: normal;
 }
 
+
+#sobre {
+    background-color: #273553;
+}
+
+#gamejamLogo {
+    width: 150px;
+    height: 112.5px;
+}
+
+#instagramLogo {
+    width: 40px;
+    height: 40px;
+    margin-top: 10rem;
+}
+
+h5 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ef7495;
+}
+
