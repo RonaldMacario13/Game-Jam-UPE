@@ -1,5 +1,5 @@
 *{
-    color: white;
+    color: #fff3f0;
 }
 
 
@@ -25,7 +25,7 @@ body {
 }
 
 
-#sobre {
+#contato {
     background-color: #273553;
     left: 100px;
 }
@@ -116,5 +116,53 @@ img.princImage{
     position: relative; 
 }
 
+/* sobre */
 
+#sobre {
+    background-color: #a131ff;
+    padding-bottom: 2rem;
+}
 
+#sobre img.logo {
+    width: 400px;
+    height: 300px;
+}
+
+.circulo {
+    padding-left: 20px;
+    display: flex;
+    width: 240px;
+    height: 240px;
+    background-color: #f0e68c;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacao {
+    background-color: #4ac4cd;
+    margin: 1em;
+    box-shadow: #273553 10px 10px 0px;
+    border-radius: 10px;
+}
+
+.informacao h2 {
+    font-size: 20pt;
+    text-shadow: #a131ff 3px 3px 0px;
+    
+}
+
+.informacao p {
+    font-size: 14pt;
+    color: black;
+}
+
+h1.titulo {
+    font-size: 48pt;
+    text-shadow: #ef7495 3px 3px 0px, #a131ff 6px 6px 0px;
+    padding: 2rem;
+}
+
+@media (min-width: 601px) {
+
+}
