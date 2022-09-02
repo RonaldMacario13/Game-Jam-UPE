@@ -120,7 +120,8 @@ img.princImage{
 
 #sobre {
     background-color: #a131ff;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: -3rem;
 }
 
 #sobre img.logo {
@@ -137,6 +138,7 @@ img.princImage{
     border-radius: 100%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 .meio {
@@ -145,19 +147,19 @@ img.princImage{
 
 .informacao {
     background-color: #4ac4cd;
-    margin: 1em;
+    
     box-shadow: #273553 10px 10px 0px;
     border-radius: 10px;
 }
 
 .informacao h2 {
-    font-size: 20pt;
+    font-size: 18pt;
     text-shadow: #a131ff 3px 3px 0px;
     
 }
 
 .informacao p {
-    font-size: 14pt;
+    font-size: 10pt;
     color: black;
 }
 
@@ -167,12 +169,42 @@ h1.titulo {
     padding: 2rem;
 }
 
-@media (min-width: 601px)  {
+#cursos {
+    background-color: #4ac4cd;
+    padding-bottom: 1em;
+}
+
+/* #cursos .card {
+    width: 24em;
+} */
+
+#cursos .card-image span {
+    color: #4ac4cd;
+}
+
+@media (min-width: 993px)  {
+
+    #sobre img.logo {
+        width: 600px;
+        height: 450px;
+    }
+
+    .circulo {
+        padding-left: 30px;
+        width: 360px;
+        height: 360px;
+    }
+
     .cima {
         display: none;
     }
-
+    
     .meio {
         display: flex;
+        position: absolute;
+    }
+
+    #cursos .row .push-l4 {
+        margin-bottom: -12%;
     }
 }
