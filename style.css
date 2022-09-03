@@ -47,6 +47,34 @@ h5 {
     -webkit-text-stroke-color: #ef7495;
 }
 
+/*barra de navegação*/
+
+a.navLogo{
+    left: 10px;
+}
+
+nav.navOption{
+    background-color: #273553;
+    top: -5px;
+}
+
+img.imgNav{
+    width: 90px;
+}
+
+ul.navOption{
+    display: flex;
+    top: -80px;
+}
+
+li.navOption{
+    padding-left: 20px ;
+}
+
+a.navOption{
+    color: white;
+}
+
 .navOption{
     font-size: 20px;
     text-align: center;
@@ -56,15 +84,17 @@ h5 {
 }
 
 .navOption:hover{
-    font-size: 20px;
-    text-align: center;
-    padding-left: 5px;
-    top: 40px;
-    position: relative;
     color: #ef7495;
 }
 
-.princContent{
+/* principal*/
+
+div.princContent{
+    margin: auto;
+    padding: 50px 0px 150px 0px;
+}
+
+div.princText{
     margin: auto;
 }
 
@@ -75,13 +105,13 @@ h5 {
     position: relative;
 }
 
-p.princText{
+h2.princText{
     font-size: 80px;
     top: -80%;
-    left: 35%;
+    left: 15%;
     position: relative;
     color: #fff3f0;
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 2px 2px #FF0000, 2px 2px #7300ad;
     margin: auto;
 
 }
@@ -89,10 +119,9 @@ p.princText{
 button.princText{
     position: relative;
     top: 50px;
-    left: 54%;
+    left: 21%;
     background-color: #ef7495;
     border: 5px solid #8f465a ;
-    border-left:#ef7495 ;
     border-radius: 30px;
     font-size: 15px;
     height: 50px;
@@ -102,9 +131,9 @@ button.princText{
 button.princText:hover{
     position: relative;
     top: 50px;
-    left: 54%;
-    background-color:  #d66785;
-    border: 5px solid #6d3745;
+    left: 21%;
+    background-color:  #c15e79;
+    border: 5px solid #61313e;
     border-radius: 30px;
     font-size: 15px;
     height: 50px;

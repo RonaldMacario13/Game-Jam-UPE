@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -16,38 +20,40 @@
 </head>
 
 <body>
-    <div class="row nav">
-        <div class="col s1">
-            <img src="Assets/imgs/upe.d3421ae.png" alt="" class="logo">
+    <nav class="navOption">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo navLogo">
+                <img src="Assets/imgs/upe.d3421ae.png" alt="" class="imgNav">
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down navOption">
+                <li class="navOption"><a href="#sobre" class="navOption">Sobre</a></li>
+                <li class="navOption"><a href="#" class="navOption">Parceiros</a></li>
+                <li class="navOption"><a href="#" class="navOption">Inscrições</a></li>
+                <li class="navOption"><a href="#contato" class="navOption">Contatos</a></li>
+            </ul>
         </div>
-        <div class="col s7 princName">&nbsp &nbsp GameJam-Upe</div>
-        <a href="#sobre">
-            <div class="col s1 navOption">Sobre</div>
-        </a>
-        <a href="#">
-            <div class="col s1 navOption">Parceiros</div>
-        </a>
-        <a href="#">
-            <div class="col s1 navOption">Inscrições</div>
-        </a>
-        <a href="#contato">
-            <div class="col s1 navOption">Contato</div>
-        </a>
-    </div>
-    <div>
+    </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+            <li class="navOption"><a href="#sobre" class="navOption">Sobre</a></li>
+            <li class="navOption"><a href="#" class="navOption">Parceiros</a></li>
+            <li class="navOption"><a href="#" class="navOption">Inscrições</a></li>
+            <li class="navOption"><a href="#contato" class="navOption">Contatos</a></li>
+      </ul>
+
+<!--principal-->      
+
     <div class="row princContent">
-        <div class="col s6 princText">
-            <p class="princText">
-                Participe <br>
-                &nbsp Desse <br>
-                &nbsp &nbsp Desafio
-            </p>
-            <button class="z-depth-5 princText"><b>INSCREVA-SE</b></button>
-        </div>
-        <div class="col s6 princImage">
-            <img src="Assets/imgs/controleRetro.webp" alt="" class="princImage">
-        </div>
-    </div></div>
+        <div class="col s12 m12 l6 princText">
+                <h2 class="princText">Participe</h2>
+                <h2 class="princText">Desse</h2>
+                <h2 class="princText">Desafio</h2>
+                <button class="z-depth-5 princText"><b>INSCREVA-SE</b></button>
+        </div>   
+    </div>
+
+<!--Sobre-->
 
     <div id="sobre">
         <h1 class="titulo">Sobre</h1>
@@ -88,6 +94,8 @@
         </div>
     </div>
 
+<!--Cursos-->
+
     <div id="cursos">
         <h1 class="titulo">Cursos</h1>
         <div class="container">
@@ -121,6 +129,8 @@
                 </a></div>
         </div>
     </div>
+
+<!--Contatos-->
 
     <footer id="contato" class="page-footer">
         <div id="contatos" class="container">
@@ -160,8 +170,11 @@
             </div>
         </div>
     </footer>
-</body>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="config.js"></script>
+
+</body>
+
+
 
 </html>
