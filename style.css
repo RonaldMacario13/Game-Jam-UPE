@@ -15,6 +15,7 @@
 body {
     background-color: #273553;
     font-family: "MADE TOMMY";
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -62,6 +63,7 @@ img.imgNav{
     width: 90px;
 }
 
+
 ul.navOption{
     display: flex;
     top: -80px;
@@ -72,7 +74,8 @@ li.navOption{
 }
 
 a.navOption{
-    color: white;
+    color: #fff3f0;
+    margin-top: 10px;
 }
 
 .navOption{
@@ -83,15 +86,17 @@ a.navOption{
     position: relative;
 }
 
-.navOption:hover{
+a.navOption:hover{
     color: #ef7495;
 }
 
 /* principal*/
 
+
+
 div.princContent{
     margin: auto;
-    padding: 50px 0px 150px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 div.princText{
@@ -140,17 +145,16 @@ button.princText:hover{
     width: 200px;
 }
 
-img.princImage{
-    left: 23%;
-    position: relative; 
+img.princImage {
+    min-width: 200px;
 }
-
 /* sobre */
 
 #sobre {
     background-color: #a131ff;
     padding-bottom: 1rem;
     margin-bottom: -3rem;
+    margin-top: -3.5rem;
 }
 
 #sobre img.logo {
@@ -203,9 +207,6 @@ h1.titulo {
     padding-bottom: 1em;
 }
 
-/* #cursos .card {
-    width: 24em;
-} */
 
 #cursos .card-image span {
     color: #4ac4cd;
@@ -235,5 +236,19 @@ h1.titulo {
 
     #cursos .row .push-l4 {
         margin-bottom: -12%;
+    }
+}
+
+@media (max-width: 500px) {
+    .princImage {
+        display: none;
+    }
+
+    button.princText {
+        margin-bottom: 3rem;
+    }
+
+    #sobre {
+        margin-top: 0rem;
     }
 }

@@ -33,6 +33,18 @@
                 <li class="navOption"><a href="#contato" class="navOption">Contatos</a></li>
             </ul>
         </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems, options);
+              });
+            
+              // Or with jQuery
+            
+              $(document).ready(function(){
+                $('.sidenav').sidenav();
+              });
+            </script>
     </nav>
     
       <ul class="sidenav" id="mobile-demo">
@@ -45,12 +57,13 @@
 <!--principal-->      
 
     <div class="row princContent">
-        <div class="col s12 m12 l6 princText">
+        <div class="col s12 m5 l6 princText">
                 <h2 class="princText">Participe</h2>
                 <h2 class="princText">Desse</h2>
                 <h2 class="princText">Desafio</h2>
                 <button class="z-depth-5 princText"><b>INSCREVA-SE</b></button>
-        </div>   
+        </div>
+        <div class="col s12 m1 l6 right-align"><img class="princImage"src="Assets/imgs/controleRetro.webp" alt="Controle Rêtro"></div>
     </div>
 
 <!--Sobre-->
