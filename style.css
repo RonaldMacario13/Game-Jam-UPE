@@ -16,6 +16,7 @@ body {
     background-color: #273553;
     font-family: "MADE TOMMY";
     overflow-x: hidden;
+
 }
 
 @font-face {
@@ -111,7 +112,7 @@ div.princText{
 }
 
 h2.princText{
-    font-size: 80px;
+    font-size: 70px;
     top: -80%;
     left: 15%;
     position: relative;
@@ -252,3 +253,23 @@ h1.titulo {
         margin-top: 0rem;
     }
 }
+
+/*parceiros*/
+
+div.parceiros{
+    background-color: #ef7495;
+    padding-bottom: 1rem;
+    margin-bottom: -3rem;
+    margin-top: -3.5rem;
+    height: 400px;
+}
+
+
+
+img.parceiros_inside{
+    width: 100px;
+    
+}
+
+
+
