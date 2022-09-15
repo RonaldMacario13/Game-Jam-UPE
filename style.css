@@ -72,6 +72,7 @@ ul.navOption{
 
 li.navOption{
     padding-left: 20px ;
+    margin-bottom: 20PX;
 }
 
 a.navOption{
@@ -256,12 +257,13 @@ h1.titulo {
 
 /*parceiros*/
 
-div.parceiros{
+div#parceiros{
     background-color: #ef7495;
     padding-bottom: 1rem;
-    margin-bottom: -3rem;
+    margin-bottom: 0rem;
     margin-top: -3.5rem;
-    height: 400px;
+
+
 }
 
 
@@ -273,3 +275,33 @@ img.parceiros_inside{
 
 
 
+
+#parceiros section.marcas {
+    width: 275px;
+    background-color: #fff3f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin: 0 5vw 1vw 5vw;
+}
+
+#parceiros .marcas img {
+    margin: 28px;
+    width: 210px;
+    border-radius: 2%;
+}
+
+#parceiros .marcas h2 {
+    color: #a131ff;
+    padding-left: 2rem;
+    font-family: "MADE TOMMY";
+    font-size: 24pt;
+    align-self: start;
+}
+
+
+pre.carosel {
+    display: flex;
+    overflow: auto;
+}
