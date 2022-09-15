@@ -15,7 +15,7 @@
 body {
     background-color: #273553;
     font-family: "MADE TOMMY";
-    overflow-x: hidden;
+    touch-action: pan-y;
 
 }
 
