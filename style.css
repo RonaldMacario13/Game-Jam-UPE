@@ -15,6 +15,7 @@
 body {
     background-color: #273553;
     font-family: "MADE TOMMY";
+    overflow-x: hidden;
     touch-action: pan-y;
 
 }
@@ -211,7 +212,9 @@ h1.titulo {
 
 
 #cursos .card-image span {
-    color: #4ac4cd;
+    -webkit-text-fill-color: #ef7495;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
 }
 
 @media (min-width: 993px)  {
