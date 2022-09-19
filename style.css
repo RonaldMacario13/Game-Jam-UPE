@@ -258,6 +258,10 @@ h1.titulo {
     }
 }
 
+a.pdf_informacao{
+    color: #ef7495;
+}
+
 /*parceiros*/
 
 div#parceiros{
