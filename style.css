@@ -8,6 +8,10 @@
     height: 112.5px;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .nav {
     background-color: #273553;
 }
@@ -310,5 +314,5 @@ img.parceiros_inside{
 
 pre.carosel {
     display: flex;
-    overflow: auto;
+    touch-action: auto;
 }
